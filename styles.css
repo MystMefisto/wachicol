@@ -1,0 +1,68 @@
+@font-face {
+    font-family: LilGrotesk;
+    src: url("LilGrotesk-Regular.otf") format("opentype");
+}
+@font-face {
+    font-family: LilGroteskBold;
+    src: url("LilGrotesk-Bold.otf") format("opentype");
+}
+
+html{
+    font-family: LilGrotesk;
+}
+
+img{
+    width: 75px;
+}
+
+b{
+    font-family: LilGroteskBold;
+    font-size: 35px;
+    margin: 0;
+}
+
+.navbar{
+    float: left;
+    width: 95vw;
+    padding-left: 50px;
+}
+
+.logo{
+    width: 80px;
+}
+
+.header-title{
+    display: inline;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.main-container{
+    width: 99vw;
+    text-align: center;
+    padding-top: 26vh;
+}
+
+.slogan{
+    font-size: 80px;
+    font-weight: lighter;
+    margin: 0;
+}
+
+.telegram{
+    display: block;
+    margin: 0 48%;
+    padding-top: 30px;
+}
+
+.rss-container{
+    position: absolute;
+    bottom: 0;
+    width: 90vw;
+    padding-bottom: 50px;
+}
+
+.rss{
+    float:right;
+    padding:10px
+}
